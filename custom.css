@@ -11,6 +11,7 @@
 /* unvisited link */
 a:link {
     font-weight: bold;
+    text-decoration: underline;
     color: #999;
 }
 
@@ -21,7 +22,12 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-	color: #999;
+	color: #DC1E2F !important;
+	-moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
 }
 
 /* selected link */
@@ -93,21 +99,23 @@ td.wrapper {
 
 .grid-section {
 	width: 200px;
-	height: 180px;
+	height: auto;
 	background: #DC1E2F;
-}
-
-.grid-section:hover {
-	background: #bc1623;
-	cursor: pointer;
-}
-
-.grid-copy {
 	color: #FFF;
 	font-size: 1.2em;
 	line-height: 1.2em;
-	width: 140px;
-	padding: 38px 0px 0px 30px;
+	padding: 20px;
+}
+
+.grid-section:hover {
+	color: #DC1E2F;
+	background: #FFF;
+	cursor: pointer;
+	-moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
 }
 
 .footer-text-wrap {
@@ -116,14 +124,19 @@ td.wrapper {
 	bottom: 0;
 	width: 100%;
 	max-width: 748px;
-	background: #DC1E2F;
+	background: #282828;
 	color: #FFF;
 	padding: 10px 0px 10px 0px;
 }
 
 .footer-text-wrap:hover {
-	background: #bc1623;
+	background: #DC1E2F;
 	cursor: pointer;
+	-moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
 }
 
 p.footer-header {
@@ -135,7 +148,7 @@ p.footer-header {
 }
 
 p.footer-copy {
-	color: #FFF;
+	color: #CFD1D2;
 	font-size: .9em;
 	padding-top: 5px;
 	margin-bottom: 0px;
@@ -163,12 +176,6 @@ p.main-footer-mailing1 {
 	font-weight: bold;
 }
 
-p.main-footer-addressbook {
-}
-
-p.main-footer-unsubscribe {
-}
-
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 600px) {
@@ -191,11 +198,8 @@ img.logo {
 
 .grid-section {
 	width: 100%;
-}
-
-.grid-copy {
 	font-size: 1.8em;
-	width: 330px;
+	width: 340px;
 }
 
 p.footer-header {
@@ -216,6 +220,10 @@ p.footer-header,p.footer-copy {
 
 .main-section3-footer {
 	height: 220px;
+}
+
+.main-footer {
+	height: 180px;
 }
 }
 
