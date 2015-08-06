@@ -124,13 +124,13 @@ td.wrapper {
 	bottom: 0;
 	width: 100%;
 	max-width: 748px;
-	background: #282828;
+	background: rgba(40,40,40,0.9);
 	color: #FFF;
 	padding: 10px 0px 10px 0px;
 }
 
 .footer-text-wrap:hover {
-	background: #DC1E2F;
+	background: rgba(220,30,47,0.9);
 	cursor: pointer;
 	-moz-transition: all .2s linear;
     -webkit-transition: all .2s linear;
