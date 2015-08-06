@@ -8,6 +8,11 @@
     src: url(font/ReplicaStd-Regular.otf);
 }
 
+@font-face {
+    font-family: Replica-Light;
+    src: url(font/ReplicaStd-Light.otf);
+}
+
 /* unvisited link */
 a:link {
     font-weight: bold;
@@ -67,7 +72,7 @@ td.wrapper {
 .header-wrapper {
 	background: #DC1E2F;
 	height: 120px;
-	width: 380px;
+	width: 100%;
 }
 
 .header-logo {
@@ -79,12 +84,11 @@ td.wrapper {
 
 .header-copy {
 	position: relative;
-	float: right;
-	z-index: 2;
-	text-align: left;
+	float: left;
+	font-family: Replica-Light;
 	color: #FFF;
 	font-size: 2em;
-	margin: 28px 12px 0px 0px;
+	margin: 44px 0px 0px 15px;
 	line-height: 1em;
 }
 
@@ -184,7 +188,7 @@ p.main-footer-mailing1 {
 	position: relative;
 	float: left;
 	font-size: 1.9em;
-	margin-left: 15px;
+	margin: 30px 0px 0px 15px;
 }
 
 .header-wrapper {
@@ -219,7 +223,7 @@ p.footer-header,p.footer-copy {
 }
 
 .main-section3-footer {
-	height: 220px;
+	height: 230px;
 }
 
 .main-footer {
