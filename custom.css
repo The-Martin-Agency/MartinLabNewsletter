@@ -94,6 +94,7 @@ td.wrapper {
 .grid-section {
 	width: 200px;
 	height: 180px;
+	background: #DC1E2F;
 }
 
 .grid-section:hover {
@@ -101,12 +102,12 @@ td.wrapper {
 	cursor: pointer;
 }
 
-p.grid-section {
+.grid-copy {
 	color: #FFF;
-	padding: 30px;
 	font-size: 1.2em;
 	line-height: 1.2em;
 	width: 140px;
+	padding: 38px 0px 0px 30px;
 }
 
 .footer-text-wrap {
@@ -188,7 +189,11 @@ img.logo {
 	height: auto !important;
 }
 
-p.grid-section {
+.grid-section {
+	width: 100%;
+}
+
+.grid-copy {
 	font-size: 1.8em;
 	width: 330px;
 }
