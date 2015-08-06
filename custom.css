@@ -41,7 +41,7 @@ a:active {
 }
 
 body,html {
-	font-family: Replica-Regular;
+	font-family: Replica-Light;
 	font-size: 100%;
 	background: #F3F3E8;
 }
@@ -79,7 +79,7 @@ td.wrapper {
 	position: relative;
 	float: left;
 	z-index: 5;
-	margin: 10px 0px 0px 20px;
+	margin: 20px 0px 0px 20px;
 }
 
 .header-copy {
@@ -105,6 +105,7 @@ td.wrapper {
 	width: 200px;
 	height: auto;
 	background: #DC1E2F;
+	font-family: Replica-Light;
 	color: #FFF;
 	font-size: 1.2em;
 	line-height: 1.2em;
@@ -144,6 +145,7 @@ td.wrapper {
 }
 
 p.footer-header {
+	font-family: Replica-Light;
 	color: #FFF;
 	font-size: 1.5em;
 	margin-bottom: 0px;
@@ -152,6 +154,7 @@ p.footer-header {
 }
 
 p.footer-copy {
+	font-family: Replica-Light;
 	color: #CFD1D2;
 	font-size: .9em;
 	padding-top: 5px;
