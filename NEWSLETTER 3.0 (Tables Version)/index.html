@@ -46,8 +46,8 @@
 		text-align: center;
 	}
 	.featured-image{
-		width: auto;
-		height: 250px;
+		width: 100%;
+		height: auto;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -85,11 +85,11 @@
 		padding: 0px 20px 0px 20px;
 	}
 	
-	p.main-footer-copyright {
+	p.main-footer-copyright{
 		font-style: italic;
 	}
 	
-	p.main-footer-mailing1 {
+	p.main-footer-mailing1{
 		font-weight: bold;
 	}
 	.spacer{
@@ -99,12 +99,13 @@
 <div class="wrapper">
 <table class="table" cellpadding="0px" cellspacing="0px">
 	<tr>
-		<td mc:edit class="header"><img style="width: 70%;height:auto;" src="images/header.png"></td>
+		<td class="header"><img mc:edit style="width: 70%;height:auto;" src="images/header.png"></td>
 	</tr>
 	<tr>
 		<td><div class="spacer"></div></td>
 	</tr>
-	<tr><a href="example.html"><td mc:edit class="featured-image" background="images/sample1.png"></td></a>
+	<tr>
+		<a href="example.html"><td><img mc:edit class="featured-image" src="images/sample1.png"></td></a>
 	</tr>
 	<tr>
 		<a href="example.html"><td mc:edit class="featured-headline">Map brand strategy</td></a>
@@ -116,7 +117,7 @@
 		<td><div class="spacer"></div></td>
 	</tr>
 	<tr>
-		<a href="example.html"><td mc:edit class="featured-image" background="images/sample2.png"></td></a>
+		<a href="example.html"><td><img mc:edit class="featured-image" src="images/sample2.png"></td></a>
 	</tr>
 	<tr>
 		<a href="example.html"><td mc:edit class="featured-headline">Check out Gestimer</td></a>
@@ -128,7 +129,7 @@
 		<td><div class="spacer"></div></td>
 	</tr>
 	<tr>
-		<a href="example.html"><td mc:edit class="featured-image" background="images/sample3.jpg"></td></a>
+		<a href="example.html"><td><img mc:edit class="featured-image" src="images/sample3.jpg"></td></a>
 	</tr>
 	<tr>
 		<a href="example.html"><td mc:edit class="featured-headline">Play Pokemon on a PC</td></a>
